@@ -3,7 +3,8 @@ var playerHealth = 100;
 var playerAttack = 10;
 var playerMoney = 10;
 
-var enemyName = "Roborto";
+var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
+console.log(enemyNames);
 var enemyHealth = 50;
 var enemyAttack =12;
 
@@ -61,4 +62,4 @@ else {
 }
 };
 
-fight();
+//fight();
